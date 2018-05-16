@@ -1,0 +1,8 @@
+package main;
+
+public class Descuento implements IVisitor {
+
+	float visit(IFruta fruta);
+	float visit(ILineaBlanca fruta);
+	
+}

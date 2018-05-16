@@ -1,0 +1,25 @@
+package main;
+
+public class Usuario {
+	
+	private String nombre;
+	
+	public Usuario(String nombre) {
+		this.nombre = nombre;
+		this.sala = sala;
+	}
+	
+	public void enviarMensaje(String receptor, String mensaje) {
+		this.sala.enviar(this.nombre, receptor, mensaje);
+	}
+	
+	public void recibirMensaje(String mensaje) {
+		System.out.println("mensaje recibido : " + mensaje);
+	}
+	
+	public String getName() {
+		return this.nombre;
+	}
+	
+
+}

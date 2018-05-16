@@ -1,0 +1,19 @@
+package main;
+
+public class Adapter implements IConexionSQL {
+
+	private ConexionMongoDB mongoDb;
+	
+	public Adapter(ConexionMongoDB mongoDb) {
+		this.mongoDb = mongoDb;
+	}
+	
+	public void conexion() {
+		this.mongoDb.conexion();
+	}
+	
+	public String runQuery() {
+		return this.mongoDb.excecuteSentence();
+	}
+	
+}

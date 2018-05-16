@@ -1,0 +1,16 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Enemigo enemigoBase = new Enemigo("imagen1.jpg", 0, 0);
+		
+		Enemigo enemigo1 = new Enemigo(enemigoBase);
+		Enemigo enemigo2 = new Enemigo(enemigoBase);
+		Enemigo enemigo3 = new Enemigo(enemigoBase);
+		
+		
+	}
+
+}

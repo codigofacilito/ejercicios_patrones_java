@@ -1,0 +1,14 @@
+package main;
+
+public class Deposito implements IManejadorTransacciones {
+
+	
+	public void setNextManejador(IManejadorTransacciones next) {
+		
+	}
+	
+	public void ejecutarTransaccion(Transaccion transaccion) {
+		
+	}
+	
+}

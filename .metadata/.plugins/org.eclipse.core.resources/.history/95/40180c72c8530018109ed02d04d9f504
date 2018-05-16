@@ -1,0 +1,25 @@
+package main;
+
+public class AutoEncendido implements IEstadoAuto {
+
+	private final Auto auto;
+	
+	public AutoEncendido(Auto auto) {
+		this.auto = auto;
+	}
+	
+	public void encender() {
+		System.out.println("El auto esta encendido!");
+	}
+	
+	public void conducir() {
+		System.out.println("El auto esta en movimiento!");
+		auto.setEstadoActual(auto.getAutoMovimiento());
+	}
+	
+	public void apagado() {
+		System.out.println("El auto esta apagado!");
+		auto.setEstadoActual(auto.getAutoApagado());
+	}
+
+}

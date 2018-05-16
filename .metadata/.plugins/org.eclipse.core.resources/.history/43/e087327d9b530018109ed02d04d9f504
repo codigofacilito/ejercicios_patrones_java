@@ -1,0 +1,17 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Transaccion transaccion = new Transaccion(100, 200, TipoTransaccion.Deposito);
+		
+		IManejadorTransaccion deposito = new Deposito();
+		IManejadorTransaccion retiro = new Retiro();
+		IManejadorTransaccion invalido = new Invalido();
+		
+		deposito.setNextManejador(retiro);
+		
+	}
+
+}

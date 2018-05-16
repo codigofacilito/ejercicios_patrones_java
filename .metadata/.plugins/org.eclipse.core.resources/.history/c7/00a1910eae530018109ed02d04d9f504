@@ -1,0 +1,12 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		IUsuarioChat eduardo = new Usuario("Eduardo");
+		IUsuarioChat codi = new Usuario("Codi");
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package main;
+
+public class Usuario implements IUsuarioChat {
+	
+	private String nombre;
+	
+	public Usuario(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	public void enviarMensaje() {
+		
+	}
+	
+	public void recibirMensaje(String mensaje) {
+		
+	}
+	
+	
+
+}

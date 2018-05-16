@@ -1,0 +1,13 @@
+package main;
+
+import java.util.HashMap;
+
+public class NubeFactory {
+
+	private HashMap<TipoNube, Nube> nubesMap;
+	
+	public NubeFactory() {
+		this.nubesMap = new HashMap<TipoNube, Nube>();
+	}
+	
+}

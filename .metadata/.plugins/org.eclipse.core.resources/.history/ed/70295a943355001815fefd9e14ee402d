@@ -1,0 +1,14 @@
+package main;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		//Fruta 10% de descuento
+		//LíneBlanca 5% de descuento
+		
+		IFruta manzana = new Manzana();
+		ILineaBlanca lavadora = new Lavadora();
+		
+	}
+}

@@ -1,0 +1,9 @@
+package main;
+
+public class Lavadora implements ILineaBlanca {
+
+	public float getPrecio() {
+		return 50f;
+	}
+	
+}

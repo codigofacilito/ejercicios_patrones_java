@@ -1,0 +1,19 @@
+package main;
+
+public class Menu implements IMenu{
+	
+	public Menu() {
+		
+	}
+	
+	public boolean open() {
+		System.out.println("Open!");
+		return true;
+	}
+	
+	public boolean close() {
+		System.out.println("Close!");
+		return true;
+	}
+	
+}

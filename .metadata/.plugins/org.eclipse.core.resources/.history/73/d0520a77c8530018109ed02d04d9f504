@@ -1,0 +1,11 @@
+package main;
+
+public interface IEstadoAuto {
+
+	void encender();
+	
+	void conduccion();
+	
+	void apagar();
+	
+}

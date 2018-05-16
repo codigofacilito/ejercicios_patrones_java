@@ -1,0 +1,9 @@
+package main;
+
+public class Manzana implements IFruta {
+
+	public float getPrecio() {
+		return 2f;
+	}
+	
+}

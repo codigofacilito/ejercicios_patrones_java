@@ -1,0 +1,23 @@
+package main;
+
+public class Usuario implements IObserver {
+
+	private String nombre;
+
+	public Usuario(String nombre) {
+		this.setNombre(nombre);
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	
+	public void notifyObserver() {
+		System.out.println("Notificación!");
+	}
+	
+}

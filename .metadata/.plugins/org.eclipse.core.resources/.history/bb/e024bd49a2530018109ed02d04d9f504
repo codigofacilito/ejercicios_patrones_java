@@ -1,0 +1,14 @@
+package main;
+
+public class DeviseOff implements ICommand{
+
+	private TV tv;
+	
+	public DeviseOff(TV tv) {
+		this.tv = tv;
+	}
+	
+	public void operacion() {
+		this.tv.off();
+	}
+}

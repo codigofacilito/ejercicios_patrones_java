@@ -1,0 +1,33 @@
+package main;
+
+public class Menu implements IMenu{
+	
+	public Menu() {
+		this.menus = new ArrayList<IMenu>();
+	}
+	
+	public boolean open() {
+		System.out.println("Open!");
+		return true;
+	}
+	
+	public boolean close() {
+		System.out.println("Close!");
+		return true;
+	}
+	
+	public void addMenus(IMenu...menus) {
+		for(IMenu m : menus) {
+			this.menus.add(m);
+		}
+	}
+	
+	public void addMenu(IMenu menu) {
+		this.menus.add(menu);
+	}
+	
+	public IMenu getMenu(int index) {
+		return this.menus.get(index);
+	}
+	
+}

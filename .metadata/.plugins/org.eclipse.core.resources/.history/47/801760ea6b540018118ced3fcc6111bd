@@ -1,0 +1,10 @@
+package main;
+
+public class SalaChat {
+
+	private HashMap<String, Usuario> usuarios;
+	
+	public SalaChat() {
+		
+	}
+}

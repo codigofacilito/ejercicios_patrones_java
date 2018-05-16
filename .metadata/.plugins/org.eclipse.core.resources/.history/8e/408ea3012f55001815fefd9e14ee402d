@@ -1,0 +1,9 @@
+package main;
+
+public class Administrador extends Usuario {
+
+	public void realizarTrabajo() {
+		
+	}
+	
+}

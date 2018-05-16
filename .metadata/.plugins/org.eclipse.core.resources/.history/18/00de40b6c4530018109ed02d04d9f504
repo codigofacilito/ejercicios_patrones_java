@@ -1,0 +1,13 @@
+package main;
+
+public class Context {
+
+	private IEstado estado;
+
+	public Context(){
+      this.estado  = null;
+	}
+
+	
+	   
+}

@@ -1,0 +1,26 @@
+package main;
+
+import java.util.Set;
+import java.util.LinkedHashSet;
+
+public class Servicio implements IObservable {
+
+	private Set<IObserver> observers;
+	
+	public Servicio() {
+		this.observers = new LinkedHashSet<>();
+	}
+	
+	public void addObserve(IObserver o) {
+		this.observers.add(o);
+	}
+	
+	public void removeObserve(IObserver o) {
+		this.observers.add(o);
+	}
+	
+	public void notifyObserver() {
+		
+	}
+	
+}

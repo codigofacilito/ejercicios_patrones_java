@@ -1,0 +1,9 @@
+package main;
+
+public class Transaccion {
+	private float cantidad;
+	private float balance;
+	private TipoTransaccion tipoTransaccion;
+	
+	public 
+}

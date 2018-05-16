@@ -1,0 +1,18 @@
+package main;
+
+import java.util.ArrayList;
+
+public class GuiaTelefonica {
+
+	private ArrayList<String> numeros;
+	
+	public GuiaTelefonica() {
+		this.numeros = new ArrayList<String>();
+	}
+	
+	public add(String numero) {
+		this.numeros.add(numero);
+	}
+	
+	
+}

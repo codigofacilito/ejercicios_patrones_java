@@ -1,0 +1,9 @@
+package main;
+
+public interface IManejadorTransaccion {
+
+	void setNextManejador();
+	
+	void ejecutarTransaccion();
+	
+}

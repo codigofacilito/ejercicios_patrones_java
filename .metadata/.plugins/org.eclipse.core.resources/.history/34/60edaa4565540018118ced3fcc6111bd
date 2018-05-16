@@ -1,0 +1,11 @@
+package main;
+
+public class OnDevise implements ICommand {
+
+	
+	
+	public void operacion() {
+		
+	}
+	
+}

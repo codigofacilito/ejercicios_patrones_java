@@ -1,0 +1,21 @@
+package main;
+
+public class Auto implements IEstadoAuto {
+	
+	public Auto() {
+
+	}
+	
+	public void encender() {
+		
+	}
+	
+	public void manejar() {
+		
+	}
+	
+	public void apagar() {
+		
+	}
+	
+}

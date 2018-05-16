@@ -1,0 +1,9 @@
+package main;
+
+public class Enemigo {
+
+	private String imagen;
+	private int posX;
+	private int posY;
+	
+}

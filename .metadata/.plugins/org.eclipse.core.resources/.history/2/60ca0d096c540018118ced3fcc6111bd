@@ -1,0 +1,12 @@
+package main;
+
+import java.util.HashMap;
+
+public class SalaChat {
+
+	private HashMap<String, Usuario> usuarios;
+	
+	public SalaChat() {
+		this.usuarios = new HashMap<String, Usuario>();
+	}
+}

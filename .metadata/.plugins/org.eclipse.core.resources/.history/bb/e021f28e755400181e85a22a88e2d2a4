@@ -1,0 +1,21 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Auto auto = new Auto();
+		
+		auto.encender();
+		auto.conducir();
+		auto.apagar();
+		
+		/*
+		 * Encendido
+		 * En Movimiento
+		 * Apagado
+		 * */
+		
+	}
+
+}

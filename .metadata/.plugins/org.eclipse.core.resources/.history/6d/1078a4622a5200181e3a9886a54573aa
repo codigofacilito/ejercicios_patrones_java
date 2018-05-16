@@ -1,0 +1,13 @@
+package main;
+
+public class PizzaHawaiana implements IPizza{
+	
+	public String description() {
+		return "Pizza hawaiana";
+	}
+	
+	public float price() {
+		return 80;
+	}
+	
+}

@@ -1,0 +1,18 @@
+package main;
+
+public class AutoEncendido implements IEstadoAuto {
+
+	public void encendido() {
+		System.out.println("El auto esta encendido!");
+	}
+	
+	public void movimiento() {
+		
+	}
+	
+	public void apagado() {
+		
+	}
+	
+	
+}

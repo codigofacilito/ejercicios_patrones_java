@@ -1,0 +1,29 @@
+package main;
+
+public class Auto implements IEstadoAuto {
+	
+	IEstadoAuto autoEncendio;
+	IEstadoAuto autoMovimiento;
+	IEstadoAuto autoApagado;
+	
+	IEstadoAuto estadoActual;
+	
+	public Auto() {
+		this.autoEncendio = new AutoEncender();
+		this.autoApagado = new AutoApagar();
+		this.autoMovimiento = new AutoManejar();
+	}
+	
+	public void encender() {
+		
+	}
+	
+	public void manejar() {
+		
+	}
+	
+	public void apagar() {
+		
+	}
+	
+}

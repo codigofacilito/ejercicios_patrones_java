@@ -1,0 +1,11 @@
+package main;
+
+public interface IObservable {
+
+	void addObserve(IObserver o);
+	
+	void removeObserve(IObserver o);
+	
+	void notify();
+	
+}

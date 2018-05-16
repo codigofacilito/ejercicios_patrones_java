@@ -1,0 +1,17 @@
+package main;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		IPizza pizzaPeperoni = new PizzaPeperoni(); 
+		
+		System.out.println(pizzaPeperoni.descripcion());
+		System.out.println(pizzaPeperoni.precio());
+		
+		//Queso Extra. + 2
+		//Orilla rellena + 3
+		
+	}
+
+}

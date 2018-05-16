@@ -1,0 +1,9 @@
+package main;
+
+public class Gerente extends Usuario {
+
+	public void realizarTrabajo() {
+		System.out.println("Realizo tareas de gerente!");
+	}
+	
+}

@@ -1,0 +1,9 @@
+package main;
+
+public interface IUsuarioChat {
+
+	void enviarMensaje(String receptor, String mensaje);
+	
+	void recibirMensaje(String mensaje);
+	
+}

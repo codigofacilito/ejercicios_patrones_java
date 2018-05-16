@@ -1,0 +1,20 @@
+package main;
+
+import java.util.HashMap;
+
+public class NubeFactory {
+
+	private HashMap<String, Nube> listaNubes;
+	
+	public NubeFactory() {
+		this.listaNubes = new HashMap<String, Nube>();
+	}
+	
+	
+	public Nube getNube(String tipoNube) {
+		
+		Nube nube = (Nube)listaNubes.get(tipoNube);
+		
+	}
+	
+}

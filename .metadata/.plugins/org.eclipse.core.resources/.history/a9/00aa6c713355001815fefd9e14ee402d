@@ -1,0 +1,13 @@
+package main;
+
+public class Descuento implements IVisitor {
+
+	public float visit(IFruta fruta) {
+		return fruta.getPrecio() * 0.01;
+	}
+	
+	public float visit(ILineaBlanca fruta) {
+		
+	}
+	
+}

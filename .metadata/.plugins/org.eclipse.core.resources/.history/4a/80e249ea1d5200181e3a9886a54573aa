@@ -1,0 +1,10 @@
+package main;
+
+public class IMenu {
+	
+	boolean open();
+	
+	boolean close();
+	
+	
+}

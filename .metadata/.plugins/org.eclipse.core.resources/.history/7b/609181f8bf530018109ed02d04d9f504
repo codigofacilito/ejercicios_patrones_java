@@ -1,0 +1,9 @@
+package main;
+
+public class Producto {
+	
+	private int stock;
+	
+	public void venta();
+	
+}

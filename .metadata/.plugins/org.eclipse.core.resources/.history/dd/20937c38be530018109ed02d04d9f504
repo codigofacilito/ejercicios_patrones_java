@@ -1,0 +1,9 @@
+package main;
+
+import java.util.*;
+
+public class Servicio IObservable {
+
+	private Set<IObserver> observers = new LinkedHashSet<>();
+	
+}

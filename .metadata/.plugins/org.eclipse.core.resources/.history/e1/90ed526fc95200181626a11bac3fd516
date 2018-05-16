@@ -1,0 +1,14 @@
+package main;
+
+public class Nube {
+
+	private String imagen;
+	private int posX;
+	private int posY;
+	
+	public nube(String imagen, int posX, int posY) {
+		this.imagen = imagen;
+		this.posX = posX;
+		this.posY = posY;
+	}
+}

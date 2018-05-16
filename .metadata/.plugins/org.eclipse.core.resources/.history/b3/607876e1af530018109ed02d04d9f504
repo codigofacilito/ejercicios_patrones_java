@@ -1,0 +1,19 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		SalaChat sala = new SalaChat();
+		
+		Usuario eduardo = new Usuario("Eduardo");
+		Usuario codi = new Usuario("Codi");
+		
+		sala.addParticipante(eduardo);
+		sala.addParticipante(codi);
+		
+		sala.enviar(eduardo.getName(), eduardo.getName(), "Hola");
+
+	}
+
+}

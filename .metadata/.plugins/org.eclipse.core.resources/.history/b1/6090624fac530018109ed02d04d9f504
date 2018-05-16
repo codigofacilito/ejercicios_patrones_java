@@ -1,0 +1,19 @@
+package main;
+
+import java.util.ArrayList;
+
+public class IteradorGuiaTelefonica {
+
+	private GuiaTelefonica guia;
+	private int posicion;
+	
+	public IteradorGuiaTelefonica(GuiaTelefonica guia) {
+		this.guia = guia;
+	}
+	
+	public String siguiente() {
+		return this.guia.getNumeros().get(this.posicion);
+	}
+	
+	
+}

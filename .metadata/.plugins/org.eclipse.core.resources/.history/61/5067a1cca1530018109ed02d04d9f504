@@ -1,0 +1,8 @@
+package main;
+
+public interface IDevise {
+	
+	public void on();
+	
+	public off();
+}

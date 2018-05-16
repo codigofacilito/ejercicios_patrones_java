@@ -1,0 +1,11 @@
+package main;
+
+public abstract class Usuario {
+
+	public void indetificacion() {
+		
+	}
+	
+	abstract void realizarTrabajo();
+	
+}

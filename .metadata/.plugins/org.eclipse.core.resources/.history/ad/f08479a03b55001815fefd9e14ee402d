@@ -1,0 +1,8 @@
+package main;
+
+public interface IVisitable {
+	
+	//float visit(IVisitor visitor);
+	float aplicarDescuento(IVisitor visitor);
+	
+}

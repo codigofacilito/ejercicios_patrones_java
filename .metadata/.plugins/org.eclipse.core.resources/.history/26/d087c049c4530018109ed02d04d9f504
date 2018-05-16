@@ -1,0 +1,9 @@
+package main;
+
+public class EstadoIntermedio {
+
+	public void accion() {
+		
+	}
+	
+}

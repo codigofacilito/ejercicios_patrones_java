@@ -1,0 +1,8 @@
+package main;
+
+public class Request {
+	
+	private float cantidad;
+	private float balance;
+	
+}

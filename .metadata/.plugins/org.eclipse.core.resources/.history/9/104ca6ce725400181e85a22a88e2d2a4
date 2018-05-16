@@ -1,0 +1,9 @@
+package main;
+
+public class Usuario {
+
+	public void notifyObserver(String mensaje) {
+		System.out.println(mensaje);
+	}
+	
+}

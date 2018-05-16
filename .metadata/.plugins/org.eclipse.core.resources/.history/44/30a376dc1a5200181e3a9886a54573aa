@@ -1,0 +1,7 @@
+package main;
+
+public class Adapter implements IConexionSQL {
+
+	
+	
+}

@@ -1,0 +1,14 @@
+package main;
+
+public class DeviseOff implements ICommand{
+
+	private IDevise devise;
+	
+	public DeviseOff(IDevise devise) {
+		this.devise = devise;
+	}
+	
+	public void operacion() {
+		this.devise.off();
+	}
+}

@@ -1,0 +1,6 @@
+package main;
+
+public interface IEstado {
+
+	void accion(Context context);
+}

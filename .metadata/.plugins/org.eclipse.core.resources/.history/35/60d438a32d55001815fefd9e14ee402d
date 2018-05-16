@@ -1,0 +1,15 @@
+package main;
+
+public class Transaccion {
+
+	private IEstrategia estrategia;
+	
+	public Transaccion(IEstrategia estrategia) {
+		this.estrategia = estrategia;
+	}
+	
+	public float ejecutarTransaccion(float balance, float) {
+		return this.estrategia
+	}
+	
+}

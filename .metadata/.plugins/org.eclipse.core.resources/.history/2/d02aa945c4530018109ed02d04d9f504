@@ -1,0 +1,9 @@
+package main;
+
+public class EstadoInicial {
+
+	public void accion() {
+		
+	}
+	
+}

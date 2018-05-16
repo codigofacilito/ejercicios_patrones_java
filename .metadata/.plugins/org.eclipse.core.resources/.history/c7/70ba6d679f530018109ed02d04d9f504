@@ -1,0 +1,12 @@
+package main;
+
+public class TVOff implements ICommand{
+
+	public TVOff() {
+		
+	}
+	
+	public void execute() {
+		
+	}
+}

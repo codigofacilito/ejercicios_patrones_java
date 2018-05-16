@@ -1,0 +1,11 @@
+package main;
+
+public class TV {
+	
+	private boolean on;
+	
+	public void on() {
+		this.on = true;
+	}
+	
+}

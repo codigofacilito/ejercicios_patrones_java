@@ -1,0 +1,22 @@
+package main;
+
+public class Retiro implements IManejadorTransaccion {
+
+	private IManejadorTransaccion next;
+	
+	public void setNextManejador(IManejadorTransaccion next) {
+		this.next = next;
+	}
+	
+	public void ejecutarTransaccion(Transaccion transaccion) {
+		
+		if(transaccion.getTipoTransaccion() == TipoTransaccion.Deposito) {
+			
+			float cantidadFinal = transaccion.getCantidad() - transaccion.getBalance()
+			
+					
+		}else {
+			this.next.ejecutarTransaccion(transaccion);
+		}
+	}
+}

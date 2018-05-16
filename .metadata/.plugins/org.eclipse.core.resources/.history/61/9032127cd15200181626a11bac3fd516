@@ -1,0 +1,14 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Fachada fechaComputadora = new Fachada();
+		
+		fechaComputadora.encender();
+		
+		
+	}
+
+}

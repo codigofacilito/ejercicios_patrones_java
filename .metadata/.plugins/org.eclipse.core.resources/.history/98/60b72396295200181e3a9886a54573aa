@@ -1,0 +1,16 @@
+package main;
+
+public class ExtraQueso implements IPizza {
+
+	private IPizza pizza;
+	
+	public String descripcion() {
+		return this.pizza.descripcion() + " orilla rellena de queso!";
+	}
+	
+	public float precio() {
+		return this.pizza.precio() + 2;
+	}
+	
+	
+}

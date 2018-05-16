@@ -1,0 +1,17 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Menu menu = new Menu();
+		
+		Menu menu2 = new Menu();
+		Menu menu3 = new Menu();
+		Menu menu4 = new Menu();
+		
+		menu.open();
+		menu.close();
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package main;
+
+public class DeviseOn implements ICommand{
+
+	private IDevise devise;
+	
+	public DeviseOn(IDevise devise) {
+		this.devise = devise;
+	}
+	//No me intersa que pase alrededor mio,
+	//Yo unicamente ejecutaré on y se acabo!
+	
+	
+	//“Encapsular una petición como un objeto, 
+	//de modo que puedan parametrizarse otros objetos
+	//con distintas peticiones o colas de peticiones 
+	//y proporcionar soporte para realizar operaciones 
+	//que puedan deshacerse”.
+	
+	
+	/*
+	 * devise
+	 * */
+	public void operacion() {
+		this.devise.on();
+	}
+}

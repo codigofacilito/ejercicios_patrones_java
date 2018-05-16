@@ -1,0 +1,27 @@
+package main;
+
+public class ProxyServicio implements IServicio {
+
+	private IServicio servicio;//Costoso
+	private Usuario usuario;
+	
+	public ProxyServicio(Usuario usuario) {
+		this.usuario = usuario;
+	}
+	
+	public void leer() {
+		this.servicio.leer();
+	}
+	
+	public void escribir() {
+		this.servicio.escribir();
+	}
+	
+	public void actualizar() {
+		this.servicio.actualizar();
+	}
+	
+	public void eliminar() {
+		this.servicio.eliminar();
+	}
+}

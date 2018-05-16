@@ -1,0 +1,9 @@
+package main;
+
+public class Auto implements IEstadoAuto {
+	
+	public Auto() {
+
+	}
+	
+}

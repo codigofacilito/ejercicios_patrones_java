@@ -1,0 +1,11 @@
+package main;
+
+public class Transaccion {
+
+	private IEstrategia estrategia;
+	
+	public Transaccion(IEstrategia estrategia) {
+		this.IEstrategia = IEstrategia;
+	}
+	
+}

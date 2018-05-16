@@ -1,0 +1,16 @@
+package main;
+
+public class Adapter implements IConexionSQL {
+
+	private ConexionMongoDB conexionMongo;
+	
+	public void conexion() {
+		
+	}
+	
+	public String runQuery() {
+		return "Consulta MYSQL";
+	}
+	
+
+}

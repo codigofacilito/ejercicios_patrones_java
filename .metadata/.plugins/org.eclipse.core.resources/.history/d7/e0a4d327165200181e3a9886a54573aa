@@ -1,0 +1,13 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ConexionMySQL conexion = new ConexionMySQL();
+		conexion.conexion();
+		conexion.runQuery();
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Context context = new Context();
+		
+		IEstado inicial = new EstadoInicial();
+		inicial.accion(context);
+		System.out.println(context.getEstado().toString());
+
+		IEstado intermedio = new EstadoIntermedio();
+		inicial.accion(context);
+		System.out.println(context.getEstado().toString());
+		
+		IEstado final = new EstadoFinal();
+		inicial.accion(context);
+		
+	}
+
+}

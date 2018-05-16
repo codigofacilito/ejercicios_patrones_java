@@ -1,0 +1,23 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		NubeFactory factory = new NubeFactory(); 
+		
+		for(int x= 0; x < 100; x ++ ) {
+			
+			Nube nubes = factory.getNube("nube_pequeña.png");
+			
+		}
+		
+		for(int x= 0; x < 200; x ++ ) {
+			
+			Nube nubes = factory.getNube("nube_grande.png");
+			
+		}
+
+	}
+
+}

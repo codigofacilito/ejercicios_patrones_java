@@ -1,0 +1,13 @@
+package main;
+
+public class ConexionMySQL implements IConexionSQL {
+
+	public void conexion() {
+		
+	}
+	
+	public String runQuery() {
+		return "Consulta MYSQL";
+	}
+	
+}

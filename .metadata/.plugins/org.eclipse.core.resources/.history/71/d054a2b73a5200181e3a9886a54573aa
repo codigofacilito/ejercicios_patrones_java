@@ -1,0 +1,13 @@
+package main;
+
+public class AdaptadorDB implements IConexionSQL {
+	
+	public void conexion() {
+	
+	}
+	
+	public String runQuery() {
+		
+	}
+	
+}

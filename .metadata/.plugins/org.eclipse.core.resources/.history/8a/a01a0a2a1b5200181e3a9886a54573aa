@@ -1,0 +1,15 @@
+package main;
+
+public class Adapter implements IConexionSQL {
+
+	private ConexionMongoDB mongoDb;
+	
+	public void conexion() {
+		
+	}
+	
+	public String runQuery() {
+		
+	}
+	
+}

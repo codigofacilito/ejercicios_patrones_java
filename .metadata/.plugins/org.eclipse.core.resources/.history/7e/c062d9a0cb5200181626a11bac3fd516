@@ -1,0 +1,9 @@
+package main;
+
+public class Usuario {
+
+	private int nivelPermiso;
+	
+	
+	
+}

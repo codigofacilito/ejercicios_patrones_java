@@ -1,0 +1,8 @@
+package main;
+
+public class Transaccion {
+
+	private IEstrategia estrategia;//algoritmo
+	
+	
+}

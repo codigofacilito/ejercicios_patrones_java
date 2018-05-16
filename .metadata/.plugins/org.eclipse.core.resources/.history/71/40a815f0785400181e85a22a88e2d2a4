@@ -1,0 +1,18 @@
+package main;
+
+public class AutoManejar implements IEstadoAuto {
+	
+	
+	public void encender() {
+		
+	}
+	
+	public void manejar() {
+		
+	}
+	
+	public void apagar() {
+		
+	}
+	
+}

@@ -1,0 +1,19 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Usuario usuario = new Usuario("Codi", 6 );
+		
+		System.out.println(usuario.getNombre());
+		System.out.println(usuario.getEdad());
+		
+		//<---
+		usuario.restartMamento(memento);
+		
+		System.out.println(usuario.getNombre());
+		System.out.println(usuario.getEdad());
+	}
+
+}

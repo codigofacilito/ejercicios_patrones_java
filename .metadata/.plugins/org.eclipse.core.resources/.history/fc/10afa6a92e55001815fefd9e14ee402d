@@ -1,0 +1,9 @@
+package main;
+
+public abstract class Usuario {
+
+	private String nombre;
+	
+	
+	
+}

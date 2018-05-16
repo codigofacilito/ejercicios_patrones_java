@@ -1,0 +1,13 @@
+package main;
+
+public class EstadoIntermedio implements IEstado {
+
+	public void accion(Context context) {
+		
+	}
+	
+	public String toString() {
+		return  "Estamos en el estado Intermedio";
+	}
+	
+}

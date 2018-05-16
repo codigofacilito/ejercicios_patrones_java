@@ -1,0 +1,14 @@
+package main;
+
+public class Adapter implements IConexionSQL {
+
+	public void conexion() {
+		
+	}
+	
+	public String runQuery() {
+		return "Consulta MYSQL";
+	}
+	
+
+}

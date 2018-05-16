@@ -1,0 +1,11 @@
+package main;
+
+import java.util.HashMap;
+
+public class NubeFactory {
+
+	private HashMap<String, Nube> listaNubes;
+	
+	
+	
+}

@@ -1,0 +1,19 @@
+package main;
+
+public class TVOn implements ICommand{
+
+	private TV tv;
+	
+	public TVOn(TV tv) {
+		this.tv = tv;
+	}
+	//No me intersa que pase alrededor mio,
+	//Yo unicamente ejecutaré on y se acabo!
+	
+	
+	“Encapsular una petición como un objeto, de modo que puedan parametrizarse otros objetos con distintas peticiones o colas de peticiones y proporcionar soporte para realizar operaciones que puedan deshacerse”.
+	
+	public void operacion() {
+		this.tv.on();
+	}
+}

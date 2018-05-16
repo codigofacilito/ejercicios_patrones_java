@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;Facade/src/main&apos;&#x0A;- Original project: &apos;Computadora&apos;&#x0A;- Destination element: &apos;Facade/src/main&apos;&#x0A;- Original elements:&#x0A;     main.Computadora.java&#x0A;     main.ITeclado.java&#x0A;     main.IComponente.java&#x0A;     main.Mouse.java&#x0A;     main.IMouse.java&#x0A;     main.Teclado.java" description="Copy compilation units" destination="=Facade/src&lt;main" element1="/src&lt;main{Computadora.java" element2="/src&lt;main{ITeclado.java" element3="/src&lt;main{IComponente.java" element4="/src&lt;main{Mouse.java" element5="/src&lt;main{IMouse.java" element6="/src&lt;main{Teclado.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1525788317222" units="6" version="1.0"/>
+</session>

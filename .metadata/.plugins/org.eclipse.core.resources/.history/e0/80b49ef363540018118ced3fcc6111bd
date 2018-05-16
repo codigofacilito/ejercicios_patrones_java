@@ -1,0 +1,32 @@
+package main;
+
+public class DeviseOn implements ICommand{
+
+	private IDevise devise;
+	
+	public DeviseOn(IDevise devise) {
+		this.devise = devise;
+	}
+	//No me intersa que pase alrededor mio,
+	//Yo unicamente ejecutaré on y se acabo!
+	
+	
+	//“Encapsular una petición como un objeto, 
+	//de modo que puedan parametrizarse otros objetos
+	//con distintas peticiones o colas de peticiones 
+	//y proporcionar soporte para realizar operaciones 
+	//que puedan deshacerse”.
+	
+	
+	/*
+	 * Lo que permite el patrón command es desacoplar al objeto
+	 * que invoca a una operación de aquél que tiene conocimientos de como realizarla.
+	 * 
+	 * Estos nos da mucha flexibilidad , podemos crear aplicaciones que ejecuten
+	 * acciones danto de un elemento coomo de atros
+	 * además que podemos cambiar de forma dinamica los objetos.
+	 * */
+	public void operacion() {
+		this.devise.on();
+	}
+}

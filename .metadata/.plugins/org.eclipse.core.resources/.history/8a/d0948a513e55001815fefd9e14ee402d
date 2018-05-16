@@ -1,0 +1,14 @@
+package main;
+
+public class DescuentoComun implements IVisitor {
+
+	public float visit(IFruta fruta) {
+		
+	}
+	
+	public float visit(ILineaBlanca lineaBlanca) {
+		
+	}
+	
+}
+

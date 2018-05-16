@@ -1,0 +1,23 @@
+package main;
+
+public class IteradorGuiaTelefonica {
+
+	private GuiaTelefonica guia;
+	private int posicion;
+	
+	public IteradorGuiaTelefonica(GuiaTelefonica guia) {
+		this.guia = guia;
+	}
+	
+	public String siguiente() {
+		return this.guia.getNumeros().get(this.posicion++);
+	}
+	
+	public boolean existeSiguiente() {
+		return this.posicion < this.guia.getNumeros().size() 
+				&& this.guia.getNumeros().get(this.posicion) != null;
+	
+	}
+	
+	
+}

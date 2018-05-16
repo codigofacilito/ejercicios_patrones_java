@@ -1,0 +1,22 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Enemigo enemigoBase = new Enemigo("Imagen1.png", 0, 0, 100);
+		
+		Enemigo enemigo1 = new Enemigo(enemigoBase);
+		Enemigo enemigo2 = new Enemigo(enemigoBase);
+		
+		enemigo1.setPosX(100);
+		enemigo1.setPosY(100);
+		
+		enemigo2.setPosX(150);
+		enemigo2.setPosY(100);
+		
+		Enemigo enemigo3 = enemigoBase.clone();
+		
+	}
+
+}

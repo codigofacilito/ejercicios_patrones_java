@@ -1,0 +1,9 @@
+package main;
+
+public class TV {
+	
+	private boolean on;
+	
+	
+	
+}

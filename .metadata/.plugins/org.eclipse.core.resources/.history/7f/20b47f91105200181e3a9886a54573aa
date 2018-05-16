@@ -1,0 +1,49 @@
+package main;
+
+public class Enemigo {
+
+	private String imagen; //
+	private int posX;
+	private int posY;
+	
+	public Enemigo(String imagen, int posX, int posY) {
+		this.setImagen(imagen);
+		this.setPosX(posX);
+		this.setPosX(posX);
+	}
+	
+	public Enemigo(Enemigo enemigo){
+		this.setImagen(enemigo.getImagen());
+		this.setPosX(enemigo.getPosX());
+		this.setPosY(enemigo.getPosY());
+	}
+	
+	public Enemigo clones() {
+		
+	}
+	
+	public String getImagen() {
+		return imagen;
+	}
+	
+	public void setImagen(String imagen) {
+		this.imagen = imagen;
+	}
+	
+	public int getPosX() {
+		return posX;
+	}
+	
+	public void setPosX(int posX) {
+		this.posX = posX;
+	}
+	
+	public int getPosY() {
+		return posY;
+	}
+	
+	public void setPosY(int posY) {
+		this.posY = posY;
+	}
+	
+}

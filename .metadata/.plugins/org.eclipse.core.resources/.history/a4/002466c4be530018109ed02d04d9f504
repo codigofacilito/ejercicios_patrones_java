@@ -1,0 +1,17 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Usuario usuario1 = new Usuario("usuario1");
+		Usuario usuario2 = new Usuario("usuario2");
+		Usuario usuario3 = new Usuario("usuario3");
+		Usuario usuario4 = new Usuario("usuario4");
+		Usuario usuario5 = new Usuario("usuario5");
+		
+		
+		Servicio servicio = new Servicio();
+
+	}
+}

@@ -1,0 +1,17 @@
+package main;
+
+public class TV {
+	
+	private boolean on;
+	
+	public void on() {
+		this.on = true;
+		System.out.println("TV encendida!");
+	}
+	
+	public void off() {
+		this.on = true;
+		System.out.println("TV apagada!");
+	}
+	
+}

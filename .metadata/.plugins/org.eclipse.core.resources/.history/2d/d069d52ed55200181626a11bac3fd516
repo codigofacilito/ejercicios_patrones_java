@@ -1,0 +1,9 @@
+package main;
+
+public class NubeFactory {
+
+	private HashMap<String, Nube> listaNubes;
+	
+	
+	
+}

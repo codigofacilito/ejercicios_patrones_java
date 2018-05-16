@@ -1,0 +1,22 @@
+package main;
+
+public class ProxyServicio implements IServicio {
+
+	private IServicio servicion;
+	
+	public void leer() {
+		
+	}
+	
+	public void escribir() {
+		
+	}
+	
+	public void actualizar() {
+		
+	}
+	
+	public void eliminar() {
+		
+	}
+}

@@ -1,0 +1,14 @@
+package main;
+
+public class DescuentoComun implements IVisitor {
+
+	public float visit(IFruta fruta) {
+		return fruta.getPrecio() * 0.10f;
+	}
+	
+	public float visit(ILineaBlanca lineaBlanca) {
+		return lineaBlanca.getPrecio() * 0.05f;
+	}
+	
+}
+

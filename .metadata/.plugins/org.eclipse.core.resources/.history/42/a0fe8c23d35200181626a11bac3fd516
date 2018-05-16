@@ -1,0 +1,14 @@
+package main;
+
+public class Fachada {
+
+	private Computadora computadora;
+	
+	public Fachada() {
+		
+		
+		
+		this.computadora = new Computadora();
+	}
+	
+}

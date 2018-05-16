@@ -1,0 +1,27 @@
+package main;
+
+public class Producto {
+	
+	private int stock;
+	
+	private Set<IObserver> observer = new LinkedHashSet<>();
+	
+	public Producto(int stock) {
+		this.stock = stock;
+	}
+	
+	public void venta() {
+		this.setStock(this.stock - 1);
+	}
+
+	public int getStock() {
+		return stock;
+	}
+
+	public void setStock(int stock) {
+		this.stock = stock;
+	}
+	
+	
+	
+}

@@ -1,0 +1,8 @@
+package main;
+
+public class Retiro implements IEstraregia {
+	
+	public float realizarOperacion(float balance, float cantidad);
+	
+	
+}

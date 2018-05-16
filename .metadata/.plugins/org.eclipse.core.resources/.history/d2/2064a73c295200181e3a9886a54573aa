@@ -1,0 +1,12 @@
+package main;
+
+public class PizzaPeperoniExtraQueso extends PizzaPeperoni {
+
+	public String descripcion() {
+		return "Pizza de peperoni con orilla rellena de queso!";
+	}
+	
+	public float precio() {
+		return 12;
+	}
+}

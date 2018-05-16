@@ -1,0 +1,15 @@
+package main;
+
+public class TVOn implements ICommand{
+
+	private TV tv;
+	
+	public TVOn(TV tv) {
+		this.tv = tv;
+	}
+	//No me intersa que pase alrededor mio,
+	//Yo unicamente ejecutaré on y se acabo!
+	public void operacion() {
+		this.tv.on();
+	}
+}

@@ -1,0 +1,11 @@
+package main;
+
+public abstract class Usuario {
+
+	public void indetificacion() {
+		System.out.println("Hola al final del día soy un usuario!");
+	}
+	
+	abstract void realizarTrabajo();
+	
+}

@@ -1,0 +1,12 @@
+package main;
+
+public class ProxyServicio {
+
+	private IServicio servicio;
+	
+	public ProxyServicio(IServicio servicio) {
+		this.servicio = servicio;
+	}
+	
+	
+}

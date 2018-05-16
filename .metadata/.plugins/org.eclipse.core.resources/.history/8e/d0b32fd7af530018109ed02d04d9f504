@@ -1,0 +1,25 @@
+package main;
+
+import java.util.HashMap;
+
+public class SalaChat {
+	
+	private HashMap<String, Usuario> usuarios;
+	
+	public SalaChat() {
+		this.usuarios = new HashMap<String, Usuario>();
+	}
+	
+	public void addParticipante(Usuario usuario) {
+		this.usuarios.put(usuario.getName(), usuario);
+	}
+	
+	public void enviar(Usuario remitente, Usuario receptor, String mensaje) {
+	
+		if(this.usuarios.get(remitente.getName()) != null && this.usuarios.get(receptor.getName()) != null) {
+			Usuario usuario = this.usuarios.get(receptor);
+			usuario.recibirMensaje(mensaje);
+		}
+		
+	}
+}

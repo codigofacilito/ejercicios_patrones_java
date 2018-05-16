@@ -1,0 +1,11 @@
+package main;
+
+public class SalaChat {
+	
+	private HashMap<String, Usuario> usuarios;
+	
+	public SalaChat() {
+		this.usuarios = new ashMap<String, Usuario>();
+	}
+	
+}

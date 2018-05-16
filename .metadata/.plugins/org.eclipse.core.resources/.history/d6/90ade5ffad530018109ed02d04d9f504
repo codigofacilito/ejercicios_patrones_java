@@ -1,0 +1,15 @@
+package main;
+
+public class Usuario implements IUsuarioChat {
+	
+	public void enviarMensaje() {
+		
+	}
+	
+	public void recibirMensaje() {
+		
+	}
+	
+	
+
+}

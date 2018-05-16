@@ -1,0 +1,15 @@
+package main;
+
+public class QuesoExtra implements IPizza {
+
+	private IPizza pizza;
+	
+	public String descripcion() {
+		
+	}
+	
+	public float precio() {
+		
+	}
+	
+}

@@ -1,0 +1,30 @@
+package main;
+
+import java.util.HashMap;
+
+public class NubeFactory {
+
+	private HashMap<TipoNube, Nube> listaNubes;
+	
+	public NubeFactory() {
+		this.listaNubes = new HashMap<TipoNube, Nube>();
+	}
+	
+	
+	public Nube getNube(String tipoNube) {
+		
+		Nube nube = (Nube)listaNubes.get(tipoNube);
+		
+		if(nube == null) {
+			nube = new Nube(tipoNube, 100, 100 );
+			listaNubes.put(tipoNube, nube);
+		}
+		
+		return nube;
+	}
+	
+	public int contarNubes() {
+		return this.listaNubes.size();
+	}
+	
+}

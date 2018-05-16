@@ -1,0 +1,12 @@
+package main;
+
+public class PizzaPeperoni implements IPizza {
+
+	public String descripcion() {
+		
+	}
+	
+	public float price() {
+		
+	}
+}

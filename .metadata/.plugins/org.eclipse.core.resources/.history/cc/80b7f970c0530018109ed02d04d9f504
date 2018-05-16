@@ -1,0 +1,36 @@
+package main;
+
+import java.util.*;
+
+public class Producto implements IObservable{
+	
+	private int stock;
+	
+	private Set<IObserver> observer;
+	
+	public Producto(int stock) {
+		this.stock = stock;
+		this.observer = new LinkedHashSet<>();
+	}
+	
+	public void venta() {
+		this.setStock(this.stock - 1);
+	}
+
+	public int getStock() {
+		return stock;
+	}
+
+	public void setStock(int stock) {
+		this.stock = stock;
+	}
+	
+	public void addObserve(IObserver o) {
+		
+	}
+	
+	void removeObserve(IObserver o);
+	
+	void notifyObserver();
+	
+}

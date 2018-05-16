@@ -1,0 +1,14 @@
+package main;
+
+public class TVOn implements ICommand{
+
+	private TV tv;
+	
+	public TVOff(TV tv) {
+		this.tv = tv;
+	}
+	
+	public void execute() {
+		this.tv.on();();
+	}
+}

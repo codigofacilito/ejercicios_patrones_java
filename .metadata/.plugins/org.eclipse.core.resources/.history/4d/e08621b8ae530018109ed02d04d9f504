@@ -1,0 +1,23 @@
+package main;
+
+public class Usuario implements IUsuarioChat {
+	
+	private String nombre;
+	private SalaChat sala;
+	
+	public Usuario(String nombre, SalaChat sala) {
+		this.nombre = nombre;
+		this.sala = sala;
+	}
+	
+	public void enviarMensaje() {
+		
+	}
+	
+	public void recibirMensaje(String mensaje) {
+		System.out.println("mensaje recibido : " + mensaje);
+	}
+	
+	
+
+}

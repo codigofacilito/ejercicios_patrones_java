@@ -1,0 +1,19 @@
+package main;
+
+public class IteradorGuia implements Iterador {
+
+	private GuiaTelefonica guia;
+	
+	public IteradorGuia(GuiaTelefonica guia) {
+		this.guia = guia;
+	}
+	
+	public String siguiente() {
+		
+	}
+	
+	public boolean contieneSiguiente() {
+		
+	}
+	
+}

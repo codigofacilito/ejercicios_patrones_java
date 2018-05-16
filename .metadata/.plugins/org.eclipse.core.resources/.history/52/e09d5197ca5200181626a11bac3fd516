@@ -1,0 +1,21 @@
+package main;
+
+public class Service implements IServicio{
+	
+	public void leer() {
+		System.out.println("Leer!");
+	}
+	
+	public void escribir() {
+		System.out.println("Leer!");
+	}
+	
+	public void actualizar() {
+		
+	}
+	
+	public void eliminar() {
+		
+	}
+	
+}

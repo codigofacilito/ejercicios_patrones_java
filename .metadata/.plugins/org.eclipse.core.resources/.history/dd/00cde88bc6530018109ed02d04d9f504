@@ -1,0 +1,12 @@
+package main;
+
+public class Auto implements IEstadoAuto {
+
+	public void encendido();
+	
+	void movimiento();
+	
+	void apagado();
+	
+	
+}

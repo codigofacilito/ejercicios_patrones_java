@@ -1,0 +1,22 @@
+package main;
+
+public class Retiro implements IManejadorTransaccion {
+
+	private IManejadorTransaccion next;
+	
+	public void setNextManejador(IManejadorTransaccion next) {
+		this.next = next;
+	}
+	
+	public void ejecutarTransaccion(Transaccion transaccion) {
+		
+		if(transaccion.getTipoTransaccion() == TipoTransaccion.Retiro) {
+			
+			float cantidadFinal = transaccion.getCantidad() - transaccion.getBalance();
+			System.out.println("Nuevo balance después de retiro " + cantidadFinal);
+					
+		}else {
+			System.out.println("Operación no valida!");
+		}
+	}
+}

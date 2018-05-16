@@ -1,0 +1,21 @@
+package main;
+
+public class Service implements IServicio{
+	
+	public void leer() {
+		
+	}
+	
+	public void escribir() {
+		
+	}
+	
+	public void actualizar() {
+		
+	}
+	
+	public void eliminar() {
+		
+	}
+	
+}

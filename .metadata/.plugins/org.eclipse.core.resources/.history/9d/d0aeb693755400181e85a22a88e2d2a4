@@ -1,0 +1,20 @@
+package main;
+
+public class Auto  {
+	
+	public Auto() {
+
+	}
+	
+	public void encender() {
+		
+	}
+	
+	public void conducir() {
+		
+	}
+	
+	public void apagar() {
+		
+	}
+}

@@ -1,0 +1,12 @@
+package main;
+
+public class EstadoInicial implements IEstado {
+
+	public void accion(Context contex) {
+		context.setEstado(this);
+	}
+	
+	public String toString() {
+		return  "Estamos en el estado Incial";
+	}
+}

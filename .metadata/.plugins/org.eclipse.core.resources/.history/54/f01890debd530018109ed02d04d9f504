@@ -1,0 +1,7 @@
+package main;
+
+public interface IObservable {
+
+	void addObserve(Observer o);
+	
+}

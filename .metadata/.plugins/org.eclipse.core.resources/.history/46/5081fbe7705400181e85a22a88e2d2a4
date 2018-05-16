@@ -1,0 +1,34 @@
+package main;
+
+import java.util.*;
+
+public class Producto implements IObservable{
+	
+	private int stock;
+	
+	public Producto(int stock) {
+		this.stock = stock;
+	}
+	
+	public void venta() {
+		this.setStock(this.stock - 1);
+		
+	}
+
+	public int getStock() {
+		return stock;
+	}
+
+	public void setStock(int stock) {
+		this.stock = stock;
+	}
+	
+	public void addObserve(IObserver o) {
+		this.observers.add(o);
+	}
+	
+	public void removeObserve(IObserver o) {
+		this.observers.remove(o);
+	}
+	
+}

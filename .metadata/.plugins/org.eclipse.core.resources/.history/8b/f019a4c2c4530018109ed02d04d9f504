@@ -1,0 +1,9 @@
+package main;
+
+public class EstadoFinal implements IEstado {
+
+	public void accion(Context context) {
+		
+	}
+	
+}

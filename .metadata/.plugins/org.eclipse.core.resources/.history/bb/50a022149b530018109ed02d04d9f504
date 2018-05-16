@@ -1,0 +1,14 @@
+package main;
+
+public class Retiro implements IManejadorTransaccion {
+
+	private IManejadorTransaccion next;
+	
+	public void setNextManejador(IManejadorTransaccion next) {
+		
+	}
+	
+	public void ejecutarTransaccion() {
+		
+	}
+}

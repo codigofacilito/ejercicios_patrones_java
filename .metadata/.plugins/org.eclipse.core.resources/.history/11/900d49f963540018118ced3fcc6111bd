@@ -1,0 +1,19 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		TV tv = new TV();
+		
+		ICommand commandON = new DeviseOn(tv);
+		ICommand commandOFF = new DeviseOff(tv);
+		
+		
+		//Usaremos principalmente Command cuando queremos descaplar le ejecucuín de métodos
+		//Que sean independientes
+		commandON.operacion();
+		commandOFF.operacion();
+
+	}
+
+}

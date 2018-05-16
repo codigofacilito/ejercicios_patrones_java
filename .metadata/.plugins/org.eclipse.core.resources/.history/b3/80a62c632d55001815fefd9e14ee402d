@@ -1,0 +1,10 @@
+package main;
+
+public class Deposito implements IEstraregia {
+	
+	public float realizarOperacion(float balance, float cantidad) {
+		
+	}
+	
+
+}
